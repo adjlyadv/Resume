@@ -1,6 +1,5 @@
 import React from 'react';
 import { Avatar } from 'antd';
-import HDU from './assets/hdu.jpg';
 import './style/Education.less';
 
 const Education = () => {
@@ -8,7 +7,7 @@ const Education = () => {
     <div className="education">
       <Avatar
         className="hdu-icon"
-        src={HDU} 
+        src="./assets/hdu.jpg"
         size={120}
       />
       <span className="m-b-20" >杭州电子科技大学</span>
