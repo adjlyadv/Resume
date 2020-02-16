@@ -5,7 +5,7 @@ const tsImportPluginFactory = require("ts-import-plugin");
 const config = {
   entry: './src/index.tsx',
   output: {
-    path: __dirname,
+    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
   },
   module: {
