@@ -7,7 +7,7 @@ const Education = () => {
     <div className="education">
       <Avatar
         className="hdu-icon"
-        src="./assets/hdu.jpg"
+        src="src/assets/hdu.jpg"
         size={120}
       />
       <span className="m-b-20" >杭州电子科技大学</span>

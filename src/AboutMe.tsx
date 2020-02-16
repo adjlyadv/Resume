@@ -1,6 +1,5 @@
 import React from 'react';
 import { Avatar } from 'antd';
-import AvatarUrl from './assets/avatar.jpg';
 import './style/AboutMe.less';
 
 const AboutMe = () => {
@@ -10,7 +9,7 @@ const AboutMe = () => {
     >
       <Avatar
         className="avatar"
-        src={AvatarUrl}
+        src="src/assets/avatar.jpg"
         size={160}
       />
       <p className="aboutme-title" key="title">

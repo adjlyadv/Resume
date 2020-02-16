@@ -9,7 +9,8 @@ const Experience = () => {
         <Carousel
           autoplay={true}
         >
-          <ExperienceCard 
+          <ExperienceCard
+            key="company"
             title="九章算法（杭州）科技有限公司"
           >
             <ul>
@@ -19,6 +20,7 @@ const Experience = () => {
             </ul>
           </ExperienceCard>
           <ExperienceCard
+            key="cat"
             title="LintCode 领扣CAT（Coding Ability Test）项目"
           >
             <ul>
@@ -29,6 +31,7 @@ const Experience = () => {
           </ExperienceCard>
           <ExperienceCard
             title="九章算法帐号与微信帐号绑定并使用微信扫码登陆"
+            key="wechat"
           >
             <ul>
               <li>查阅微信文档，熟悉微信接入的大致流程，在数据库中加入微信openid字段</li>
@@ -38,6 +41,7 @@ const Experience = () => {
           </ExperienceCard>
           <ExperienceCard
             title="Chat Bot 聊天与工单机器人的前后端搭建"
+            key="chat bot"
           >
             <ul>
               <li>设计工单的数据库Model</li>
