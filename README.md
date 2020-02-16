@@ -1,6 +1,8 @@
 
 # 使用TypeScript、React、Webpack 做的一个简单的个人简历
 
+发布在了 https://adjlyadv.github.io/Resume/
+
 ## 目的
 熟悉下webpack的配置和使用，练习下TypeScript，温习CSS和JSX以及React的使用
 
@@ -11,8 +13,10 @@
     4. 发布到Github Page的时候忘记build
 
 ## 如果你想编辑本项目
-    `git clone git@github.com:adjlyadv/Resume.git`
-    `yarn` // yarn install
-    `yarn start`
+`git clone git@github.com:adjlyadv/Resume.git`
+
+`yarn`
+
+`yarn start`
 
 然后就可以编辑了！
